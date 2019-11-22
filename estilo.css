@@ -1,0 +1,151 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+
+#logo{
+	width: 400px;
+	height: 100px;
+	border: 0px black;
+	float: left; font-family: sans-serif;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.menu{
+	width: 400px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 40px;
+	background: blueviolet;
+}
+
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 20px 30px;
+	border: 0px solid white;
+	color:white; 
+}
+
+.menu ul li a:hover{
+	background: white;
+	color: blue;
+	transition: background 1s, color 1s;
+}
+
+#slide{
+	margin-top: -5px;
+	width: 900px;
+	height: 370px;
+}
+
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top: 15px;
+}
+
+.uno{
+	width: 250px;
+	height: auto; overflow: hidden;
+	border: 3px solid blueviolet;
+	float: left;
+	padding: 17px;
+	text-align: center;
+	color: blue;
+}
+
+.parrafo{
+	color: black;
+	text-align: justify;
+}
+.dos{
+	margin-left: 15px;
+	margin-right: 12px;
+}
+
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; color:blueviolet;
+}
+
+.img{
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: blue;
+}
+
+footer{
+	width: 900px;
+	height: 50px;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+}
+
+/*------------contacto------------------------*/
+#formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 3px solid blueviolet;
+	padding: 5px;
+	float: left
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+.enviar{
+	padding: 10px 20px;
+	background: blueviolet;
+	color: #fdfdfd;
+	font-size: 16px;
+}
+
+
+#datos{
+	margin-top: 30px;
+}
+
